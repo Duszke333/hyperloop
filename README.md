@@ -29,7 +29,7 @@ It is a general purpose dashboard for hypothetical Hyperloop staff, in which the
 2. Run `docker compose up` to start the PostgreSQL database and Kafka containers
 3. Go to the `src/simulation` directory and run `pip install -r requirements.txt`
 4. Go to the `src/web` directory and run `yarn` (or `npm install`)
-5. Execute all the files listed below in the database in this order:
+5. Go to the `src/sql` directory and execute all the files listed below in the database in this order:
     1. `schema.sql`
     2. `procedures.sql`
     3. `data.sql`
